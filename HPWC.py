@@ -11,6 +11,8 @@ from selenium.webdriver.support import expected_conditions as EC
 from PIL import Image, ImageTk
 import io
 import requests
+import sys
+import os
 
 def create_driver():
     options = Options()
@@ -20,7 +22,11 @@ def create_driver():
     options.add_argument("--disable-extensions")
     options.add_argument('--disable-web-security')
     options.add_argument('--allow-running-insecure-content')
-    service = Service(r"C:\Users\Daniel.Mathew\OneDrive - Arup\Software\HPWC\chromedriver.exe")
+
+    base_path = getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__)))
+    driver_path = os.path.join(base_path, 'chromedriver.exe')
+
+    service = Service(driver_path)
     return webdriver.Chrome(service=service, options=options)
 
 def get_warranty_info(serial_number):
