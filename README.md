@@ -9,8 +9,7 @@
 
 ## 📋 Description
 
-**HP Warranty Checker** is a lightweight, standalone Python desktop application that allows you to check HP product warranty information based on a serial number.  
-It displays the product name, warranty start and end dates, warranty status (Active, Expiring Soon, Expired), and product image — all inside a clean, responsive Tkinter interface.
+**HP Warranty Checker** is a lightweight, standalone Python desktop application that allows you to check HP product warranty information based on a serial number. It displays the product name, warranty start and end dates, warranty status (Active, Expiring Soon, Expired), and product image — all inside a clean, responsive Tkinter interface.
 
 ---
 
@@ -22,6 +21,21 @@ It displays the product name, warranty start and end dates, warranty status (Act
 - 📋 **One-Click Copy** Warranty Information
 - 🧩 **Fully Self-Contained** Executable – no installation needed
 - 🔐 **No Local Installation** Required – just run the `.exe` directly
+
+
+---
+
+## 🖼 Screenshots
+
+**In Warranty Example:**  
+![In Warranty Screenshot](assets/HPWC_InWarranty_Screenshot.png)
+
+**Warranty Expired Example:**  
+![Warranty Expired Screenshot](assets/HPWC_WarrantyExpired_Screenshot.png)
+
+**Warranty Expiring Soon Example:**  
+![Warranty Expiring Soon Screenshot](assets/HPWC_WarrantyExpiringSoon_Screenshot.png)
+
 
 ---
 
